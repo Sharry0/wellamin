@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@loaders.gl/draco": "^3.2.12",
     "@next/font": "13.1.1",
     "@react-three/drei": "^9.48.6",
     "@react-three/fiber": "^8.9.2",
