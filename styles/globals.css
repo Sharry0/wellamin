@@ -7,4 +7,29 @@ body{
   /* background-image: url("/bg.svg");
   background-repeat: repeat; */
   background: linear-gradient(0.3turn, #548571, #142E2C);
+ 
+}
+
+html,
+body,
+#root,
+.scroll {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  overflow: hidden;
+}
+
+#root {
+  overflow: auto;
+}
+
+.scroll {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+  scroll-snap-type: y proximity;
 }

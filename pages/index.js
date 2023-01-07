@@ -1,12 +1,14 @@
 
+import { useRef } from "react";
 import css from "../styles/Home.module.css";
 import { Canvas } from "@react-three/fiber";
 import { Environment, OrbitControls, Float } from "@react-three/drei";
-import { Bottle } from "../components/bottle";
-import { Cap } from "../components/cap";
 import { Models } from "../components/models";
+import Overlay from "../components/overlay";
 
 export default function Home() {
+  const overlay = useRef()
+  const scroll = useRef(0);
   return (
     <>
       {/* <h1>hello</h1> */}
@@ -14,7 +16,7 @@ export default function Home() {
         <Canvas
           shadows={true}
           className={css.canvas}
-          camera={{position:[0,0.08,0.2]}}
+          
         >
           <ambientLight color={"white"} intensity={1} />
           {/* <Float
@@ -25,11 +27,12 @@ export default function Home() {
             floatIntensity={1}
             speed={4}
           > */}
-            <Models/>
+            <Models scroll={scroll} />
             <Environment preset="forest" />
           {/* </Float> */}
           <OrbitControls />
         </Canvas>
+        <Overlay ref={overlay} scroll={scroll} />
       </div>
     </>
   )
