@@ -28,9 +28,10 @@ export default function Home() {
             speed={4}
           > */}
             <Models scroll={scroll} />
-            <Environment preset="forest" />
+            <Environment preset="park" />
+            {/* sunset" | "dawn" | "night" | "warehouse" | "forest" | "apartment" | "studio" | "city" | "park" | "lobby" | */}
           {/* </Float> */}
-          <OrbitControls />
+          {/* <OrbitControls /> */}
         </Canvas>
         <Overlay ref={overlay} scroll={scroll} />
       </div>

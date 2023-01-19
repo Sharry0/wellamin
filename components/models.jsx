@@ -53,8 +53,8 @@ export function Models({scroll, ...props}) {
         <mesh name="PillLeft" geometry={nodes.PillLeft.geometry} material={materials.pillTransperent} {...extras} />
         <mesh name="PillRight" geometry={nodes.PillRight.geometry} material={materials.pillSolid} {...extras} />
       </group>
-      <group name="Camera" position={[0, 0, 0]}  >
-      <PerspectiveCamera makeDefault far={20} near={0.1} fov={40} >
+      <group name="Camera"   >
+      <PerspectiveCamera makeDefault far={10} near={0.005}  >
           <directionalLight
             castShadow
             position={[10, 20, 15]}
