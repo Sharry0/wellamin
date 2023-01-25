@@ -12,7 +12,6 @@ export default function DynamicCanvas() {
     <div style={{height: "100vh"}}>
       <Canvas
         shadows={true}
-        // eventSource={document.getElementById("root")}
       >
         <ambientLight color={"white"} intensity={1} />
         <Suspense fallback={null}>
