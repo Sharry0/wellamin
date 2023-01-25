@@ -9,11 +9,11 @@ export function Models({scroll, ...props}) {
   const { nodes, materials, animations } = useGLTF("/models_v12.glb");
   // const { nodes, materials, animations } = useGLTF("/models_v1.gltf");
   // console.log(materials)
-  console.log(nodes)
+  // console.log(nodes)
   const group = useRef();
   const { actions } = useAnimations(animations, group);
-  const extras = { castShadow: true, receiveShadow: true };
-  console.log(actions)
+  const extras = { castShadow: true, receiveShadow: true, "material-envMapIntensity": 0.2 };
+  // console.log(actions)
   useEffect(() => {
     void (actions["CameraAction.006"].play().paused = true);
     void (actions["BottleAction.006"].play().paused = true);
@@ -54,7 +54,7 @@ export function Models({scroll, ...props}) {
         <mesh name="PillRight" geometry={nodes.PillRight.geometry} material={materials.pillSolid} {...extras} />
       </group>
       <group name="Camera"   >
-      <PerspectiveCamera makeDefault far={10} near={0.005}  >
+      <PerspectiveCamera makeDefault far={10} near={0.005} >
           <directionalLight
             castShadow
             position={[10, 20, 15]}

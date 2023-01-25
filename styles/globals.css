@@ -1,14 +1,8 @@
+
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
-body{
-  /* background-image: url("/bg.svg");
-  background-repeat: repeat; */
-  background: linear-gradient(0.3turn, #548571, #142E2C);
- 
-}
+
 
 html,
 body,
@@ -33,3 +27,63 @@ body,
   overflow-y: auto;
   scroll-snap-type: y proximity;
 }
+
+.scroll > div {
+  scroll-snap-align: start;
+}
+
+body{
+  /* background-image: url("/bg.svg");
+  background-repeat: repeat; */
+  /* background: linear-gradient(0.3turn, #548571, #142E2C); */
+  background: linear-gradient(0.3turn, #5C917C, #142E2C);
+  position: fixed;
+  overflow: hidden;
+  overscroll-behavior-y: none;
+  font-family: "Inter var", sans-serif;
+  color: whitesmoke;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+.text{
+  pointer-events: none;
+  position: sticky;
+  top: 0px;
+  display: inline-block;
+  max-width: 600px;
+
+  padding: 80px;
+  line-height: 1.6em;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+}
+
+.text h1{
+  -webkit-font-smoothing: auto;
+  pointer-events: none;
+  color: white;
+  font-size: 5em;
+  font-weight: 100;
+  line-height: 1em;
+  margin: 0;
+  margin-bottom: 0.25em;
+}
+
+/* .landingText{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  max-width: 100vw;
+}
+.landingText p {
+  text-align: center;
+  max-width: 600px;
+  font-size: 1.2rem;
+} */
+
+
+
+
