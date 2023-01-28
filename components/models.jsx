@@ -6,15 +6,15 @@ import React, { useRef } from "react";
 import { useGLTF, useAnimations, PerspectiveCamera } from "@react-three/drei";
 
 export function Models({ scroll, ...props }) {
-  const { nodes, materials, animations } = useGLTF("/models_v1.glb");
+  const { nodes, materials, animations } = useGLTF("/models_v2.glb");
   // console.log(materials)
   const position = [nodes.Camera_Orientation.position.x, nodes.Camera_Orientation.position.y, nodes.Camera_Orientation.position.z];
   const rotation = [nodes.Camera_Orientation.rotation.x, nodes.Camera_Orientation.rotation.y, nodes.Camera_Orientation.rotation.z];
-  console.log(nodes)
+  // console.log(nodes)
   const group = useRef();
   const { actions } = useAnimations(animations, group);
   const extras = { castShadow: true, receiveShadow: true, "material-envMapIntensity": 0.2 };
-  console.log(actions)
+  // console.log(actions)
   useEffect(() => {
     void (actions["CameraAction.006"].play().paused = true);
     void (actions["BottleAction.006"].play().paused = true);
@@ -74,4 +74,4 @@ export function Models({ scroll, ...props }) {
   );
 }
 
-useGLTF.preload("/models_v1.glb");
+useGLTF.preload("/models_v2.glb");
