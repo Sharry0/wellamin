@@ -1,12 +1,13 @@
 import { forwardRef } from "react";
 import Image from "next/image";
-import { Aboreto } from "@next/font/google";
+import Link from "next/link";
+// import { Aboreto } from "@next/font/google";
 
-const aboreto = Aboreto({
-  weight: '400',
-  variable: "--font-aboreto",
-  subsets: ['latin'],
-})
+// const aboreto = Aboreto({
+//   weight: '400',
+//   variable: "--font-aboreto",
+//   subsets: ['latin'],
+// })
 
 const Overlay = forwardRef(({ scroll, progressbar }, ref) => (
   <>
@@ -21,9 +22,8 @@ const Overlay = forwardRef(({ scroll, progressbar }, ref) => (
       <div style={{ height: "90vh" }}>
         <progress ref={progressbar} className="pageProgress" max="1" value="0"> </progress>
         <div className="text ">
-          <h1 style={{ fontFamily: aboreto.className }} >Wellamin</h1>
+          <h1 style={{ fontFamily: "April_Fatface" }} >Wellamin</h1>
           <span className="downIcon">
-
             <Image fill src="Down_icon.svg" alt="icon" />
           </span>
           {/* <p>Boost your health and immunity with our top-quality vitamin supplements. Shop now and feel the difference!</p> */}
@@ -61,9 +61,38 @@ const Overlay = forwardRef(({ scroll, progressbar }, ref) => (
         </div>
       </div>
       <div className="footerDiv" >
-        <button>Buy now</button>
         <footer className="footer">
-          Footer
+          <div style={{ fontFamily: "April_Fatface" }} >
+            <Image src="/brand_icon.png" height={40} width={40} />
+            <p>Wellamin &copy; 2023</p>
+          </div>
+          <div className="footerRight">
+
+            <div className="footerContact">
+              <p><b> Contact Details </b></p>
+              <p>548 Millbrook Road</p>
+              <p>Naperville IL 60540</p>
+              <p>info@wellamin.com</p>
+              <div className="footerSocials">
+                <Link href="https://linkedin.com" target="_blank" >
+                  <Image src="./lin.svg" height={25} width={25} />
+                </Link>
+                <Link href="https://facebook.com" target="_blank" >
+                  <Image src="./insta.svg" height={25} width={25} />
+                </Link>
+                <Link href="https://instagram.com" target="_blank" >
+                  <Image src="./fb.svg" height={25} width={25} />
+                </Link>
+              </div>
+            </div>
+            <div className="footerPages">
+              <p><b> Pages </b></p>
+              <Link href="science/">Science</Link>
+              <Link href="/news">News</Link>
+              <Link href="/about">About</Link>
+              <Link href="/contact">Contact</Link>
+            </div>
+          </div>
         </footer>
       </div>
 

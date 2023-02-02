@@ -12,7 +12,7 @@ body,
   padding: 0;
   user-select: none;
   overflow: hidden;
-  font-family: var(--font-open-san);
+  /* font-family: var(--font-open-san); */
 }
 
 #root {
@@ -163,6 +163,15 @@ progress::-moz-progress-bar {
   }
 }
 
+.footer {
+  background-color: #142E2C;
+  height: 200px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+}
+
 .footerDiv {
   height: 100vh;
   display: flex;
@@ -170,9 +179,8 @@ progress::-moz-progress-bar {
   justify-content: flex-end;
 }
 
-.footer {
-  background-color: #142E2C;
-  height: 200px;
+.footerRight{
+  display: flex;
 }
 
 /* .landingText{

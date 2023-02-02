@@ -5,7 +5,6 @@
   position: fixed;
   top: 0;
   z-index: 10;
- 
 }
 
 .nav {
@@ -17,9 +16,33 @@
   border-bottom-left-radius: 15px;
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
+  padding: 1px 15px;
+  display: flex;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
 .nav a {
   color: whitesmoke;
   text-decoration: none;
+}
+
+.nav span {
+  min-width: 200px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.navLinks {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 50px;
 }
