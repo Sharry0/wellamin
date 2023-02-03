@@ -19,8 +19,9 @@ body,
   overflow: auto;
 }
 
-h1{
-  /* font-family: var(--font-aboreto); */
+a{
+  color: whitesmoke;
+  text-decoration: none;
 }
 
 .scroll {
@@ -178,10 +179,35 @@ progress::-moz-progress-bar {
   flex-direction: column;
   justify-content: flex-end;
 }
-
-.footerRight{
+.footerLeft{
   display: flex;
+  align-items: center;
+  font-size: 1.5rem;
 }
+.footerRight{
+  display: flex; 
+  gap: 50px;
+  padding-right: 8%;
+}
+
+.footerContact{
+  border-left: whitesmoke 2px solid;
+  padding-left: 15px;
+}
+
+.footerSocials{
+  display: flex;
+  gap: 10px;
+}
+
+.footerPages{
+  display: flex;
+  flex-direction: column;
+  border-left: whitesmoke 2px solid;
+  padding-left: 15px;
+}
+
+
 
 /* .landingText{
   display: flex;

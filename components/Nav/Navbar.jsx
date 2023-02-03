@@ -9,7 +9,7 @@ export default function Navbar() {
       <nav className={css.nav}>
         <span style={{ fontFamily: "Aboreto" }} >
           <Link href="/" className={css.logo}>
-            <Image src="/brand_icon.png" height={25} width={25} />
+            <Image src="/brand_icon.png" height={25} width={25} alt="wellamin logo" />
             Wellamin
           </Link>
         </span>

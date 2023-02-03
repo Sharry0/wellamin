@@ -62,12 +62,11 @@ const Overlay = forwardRef(({ scroll, progressbar }, ref) => (
       </div>
       <div className="footerDiv" >
         <footer className="footer">
-          <div style={{ fontFamily: "April_Fatface" }} >
-            <Image src="/brand_icon.png" height={40} width={40} />
-            <p>Wellamin &copy; 2023</p>
+          <div style={{ fontFamily: "April_Fatface" }} className="footerLeft" >
+            <Image src="/brand_icon.png" height={40} width={40} alt="wellamin logo" />
+            <p>Wellamin</p>
           </div>
           <div className="footerRight">
-
             <div className="footerContact">
               <p><b> Contact Details </b></p>
               <p>548 Millbrook Road</p>
@@ -75,13 +74,13 @@ const Overlay = forwardRef(({ scroll, progressbar }, ref) => (
               <p>info@wellamin.com</p>
               <div className="footerSocials">
                 <Link href="https://linkedin.com" target="_blank" >
-                  <Image src="./lin.svg" height={25} width={25} />
+                  <Image src="./lin.svg" height={25} width={25}  alt="linkedin"/>
                 </Link>
                 <Link href="https://facebook.com" target="_blank" >
-                  <Image src="./insta.svg" height={25} width={25} />
+                  <Image src="./insta.svg" height={25} width={25}  alt="facebook"/>
                 </Link>
                 <Link href="https://instagram.com" target="_blank" >
-                  <Image src="./fb.svg" height={25} width={25} />
+                  <Image src="./fb.svg" height={25} width={25} alt="instagram" />
                 </Link>
               </div>
             </div>
