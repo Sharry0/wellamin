@@ -1,7 +1,7 @@
 
-import css from "../styles/science.module.css";
+import css from "../styles/Science.module.css";
 import Image from "next/image";
-import Footer from "../Components/Footer";
+import Footer from "../Components/Footer"
 
 export default function Science() {
   return (
