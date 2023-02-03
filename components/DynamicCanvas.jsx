@@ -2,8 +2,8 @@
 import { useRef, Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
 import { Environment, OrbitControls, Float } from "@react-three/drei";
-import { Models } from "./models";
-import Overlay from "./overlay";
+import { Models } from "./Models";
+import Overlay from "./Overlay";
 
 export default function DynamicCanvas() {
   const overlay = useRef();
@@ -26,7 +26,6 @@ export default function DynamicCanvas() {
         {/* <OrbitControls /> */}
       </Canvas>
       <Overlay ref={overlay} scroll={scroll}  progressbar={progressbar} />
-      <div style={{ height: "300vh" }} >DIV 5</div>
     </div>
   )
 }

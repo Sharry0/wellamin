@@ -11,7 +11,7 @@ body,
   margin: 0;
   padding: 0;
   user-select: none;
-  overflow: hidden;
+  /* overflow: hidden; */
   /* font-family: var(--font-open-san); */
 }
 
@@ -48,8 +48,8 @@ a{
 body {
 
   background: linear-gradient(0.3turn, #5C917C, #142E2C);
-  position: fixed;
-  overflow: hidden;
+  /* position: fixed; */
+  /* overflow: hidden; */
   overscroll-behavior-y: none;
   /* font-family: "Inter var", sans-serif; */
   color: whitesmoke;

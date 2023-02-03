@@ -1,0 +1,40 @@
+.science {
+  padding: 50px 100px;
+  /* background-color: red; */
+  background: linear-gradient(0.3turn, #5C917C, #142E2C);
+  /* background-color: #142E2C; */
+  /* background-image: url(../public/science_bg.jpg);
+  background-repeat: no-repeat;
+  background-position: top; */
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.science>div {
+  max-width: 1000px;
+}
+
+.benefitsList {
+  list-style-type: lower-roman;
+}
+
+.benefitsList li {
+  margin: 5rem 0;
+}
+
+.scientist{
+  position: relative;
+  width: 800px;
+  height: 500px;
+}
+.scientist img {
+  object-fit: contain;
+}
+
+.imgCap {
+  font-size: 0.7rem;
+  margin-top: 0;
+}
