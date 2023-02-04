@@ -1,5 +1,5 @@
 
-import css from "./Navbar.module.css"
+import css from "./Navbar.module.css";
 import Link from "next/link";
 import Image from "next/image";
 
