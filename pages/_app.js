@@ -1,5 +1,5 @@
 import '../styles/globals.css'
-import Navbar from "../Components/Navbar/Nav"
+import Nav from "../Components/Navbar/Nav"
 import { Open_Sans, Aboreto,Abril_Fatface } from '@next/font/google'
 
 const aboreto = Aboreto({
@@ -22,7 +22,7 @@ const open_san = Open_Sans({
 export default function App({ Component, pageProps }) {
   return (
     <main className={`${aboreto.className} ${abril_fatface.className} ${open_san.className} `}>
-      <Navbar />
+      <Nav />
       <Component {...pageProps} />
       {/* <div style={{ height: "300vh" }} >DIV 5567</div> */}
     </main>

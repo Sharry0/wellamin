@@ -3,7 +3,7 @@ import css from "./Navbar.module.css";
 import Link from "next/link";
 import Image from "next/image";
 
-export default function Navbar() {
+export default function Nav() {
   return (
     <div className={css.navbar}>
       <nav className={css.nav}>
