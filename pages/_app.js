@@ -1,6 +1,6 @@
 import '../styles/globals.css'
-import Nav from "../Components/Navbar/Nav"
-import { Open_Sans, Aboreto,Abril_Fatface } from '@next/font/google'
+import Navigator from '../Components/Navigator/Navigator';
+import { Open_Sans, Aboreto,Abril_Fatface } from '@next/font/google';
 
 const aboreto = Aboreto({
   weight: '400',
@@ -22,9 +22,8 @@ const open_san = Open_Sans({
 export default function App({ Component, pageProps }) {
   return (
     <main className={`${aboreto.className} ${abril_fatface.className} ${open_san.className} `}>
-      <Nav />
+      <Navigator />
       <Component {...pageProps} />
-      {/* <div style={{ height: "300vh" }} >DIV 5567</div> */}
     </main>
   )
 }
