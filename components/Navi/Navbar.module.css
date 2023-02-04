@@ -1,0 +1,43 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.nav {
+  background-color: #00000060;
+  color: whitesmoke;
+  width: 90vw;
+  height: 50px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  padding: 1px 15px;
+  display: flex;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.nav span {
+  min-width: 200px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.navLinks {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 50px;
+}

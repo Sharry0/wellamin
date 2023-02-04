@@ -1,7 +1,7 @@
 
 import css from "../styles/scient.module.css";
 import Image from "next/image";
-import Foot from "../Components/Foot"
+import Footer from "../Components/Footer";
 
 export default function Science() {
   return (
@@ -71,7 +71,7 @@ export default function Science() {
         </p>
       </div>
       <div className="foot" >
-        <Foot />
+        <Footer />
       </div>
     </>
   )

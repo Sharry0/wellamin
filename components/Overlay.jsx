@@ -1,13 +1,6 @@
 import { forwardRef } from "react";
 import Image from "next/image";
-import Foot from "./Foot";
-// import { Aboreto } from "@next/font/google";
-
-// const aboreto = Aboreto({
-//   weight: '400',
-//   variable: "--font-aboreto",
-//   subsets: ['latin'],
-// })
+import Footer from "./Footer";
 
 const Overlay = forwardRef(({ scroll, progressbar }, ref) => (
   <>
@@ -26,8 +19,6 @@ const Overlay = forwardRef(({ scroll, progressbar }, ref) => (
           <span className="downIcon">
             <Image fill src="Down_icon.svg" alt="icon" />
           </span>
-          {/* <p>Boost your health and immunity with our top-quality vitamin supplements. Shop now and feel the difference!</p> */}
-          {/* Elevate your overall health and wellness with our Multivitamin complex. Packed with essential vitamins and minerals for optimal nutrition. Support your energy levels and overall health with just one daily dose. */}
         </div>
       </div>
       <div style={{ height: "90vh" }}>
@@ -61,7 +52,7 @@ const Overlay = forwardRef(({ scroll, progressbar }, ref) => (
         </div>
       </div>
       <div className="footerDiv">
-        <Foot />
+        <Footer />
       </div>
 
     </div>
