@@ -1,5 +1,5 @@
 import '../styles/globals.css'
-import Navbar from "../Components/Nav/Navbar"
+import Navbar from "../Components/Navbar/Nav"
 import { Open_Sans, Aboreto,Abril_Fatface } from '@next/font/google'
 
 const aboreto = Aboreto({

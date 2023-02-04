@@ -1,6 +1,6 @@
 import { forwardRef } from "react";
 import Image from "next/image";
-import Footer from "./Footer";
+import Foot from "./Foot";
 // import { Aboreto } from "@next/font/google";
 
 // const aboreto = Aboreto({
@@ -61,7 +61,7 @@ const Overlay = forwardRef(({ scroll, progressbar }, ref) => (
         </div>
       </div>
       <div className="footerDiv">
-        <Footer />
+        <Foot />
       </div>
 
     </div>
