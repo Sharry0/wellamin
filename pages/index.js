@@ -4,14 +4,14 @@ import dynamic from "next/dynamic";
 //   // loading: () => 'Loading...',
 //   ssr: false,
 // })
-const Canvas = dynamic(() => import("../comps/DynamicCanvas"), {
+const DynamicCanvas = dynamic(() => import("../comps/DynamicCanvas"), {
   ssr: false
 })
 
 export default function Home() {
   return (
     <div>
-      <Canvas />
+      <DynamicCanvas />
     </div>
   )
 }

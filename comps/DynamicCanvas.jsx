@@ -1,13 +1,13 @@
 import { useRef, Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
-import { Environment, OrbitControls, Float } from "@react-three/drei";
+import { Environment } from "@react-three/drei";
+import {Models} from "./Models";
+import Overlay from "./Overlay";
 
 export default function DynamicCanvas() {
   const overlay = useRef();
   const progressbar = useRef();
   const scroll = useRef(0);
-  // console.log(scroll)
-  // console.log(progressbar)
 
   return (
     <div style={{height: "100vh"}}>
