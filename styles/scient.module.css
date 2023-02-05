@@ -1,8 +1,8 @@
 .science {
-  padding: 50px 100px;
+  /* padding: 50px 0; */
   /* background-color: red; */
-  background: linear-gradient(0.3turn, #5C917C, #142E2C);
-  /* background-color: #142E2C; */
+  /* background: linear-gradient(0.3turn, #5C917C, #142E2C); */
+  background-color: #142E2C;
   /* background-image: url(../public/science_bg.jpg);
   background-repeat: no-repeat;
   background-position: top; */
@@ -17,6 +17,41 @@
   max-width: 1000px;
 }
 
+.science>section {
+  padding: 50px 100px;
+}
+
+.landingSec {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-image: url(../public/science/science_bg_1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  display: flex;
+  align-items: center;
+}
+
+.landingSec>h1{
+  font-size: 2.8rem;
+  max-width: 500px;
+}
+
+.formOne {
+  position: absolute;
+  left: -5px;
+  bottom: -5px;
+  /* height: 300px; */
+}
+
+.formTwo {
+  position: absolute;
+  right: -400px;
+  bottom: -5px;
+  /* height: 500px; */
+}
+
 .benefitsList {
   list-style-type: lower-roman;
 }
@@ -25,11 +60,12 @@
   margin: 5rem 0;
 }
 
-.scientist{
+.scientist {
   position: relative;
   width: 800px;
   height: 500px;
 }
+
 .scientist img {
   object-fit: contain;
 }
