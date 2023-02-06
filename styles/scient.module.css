@@ -19,23 +19,33 @@
 
 .science>section {
   padding: 50px 100px;
+  width: 100%;
+}
+
+.science>section>h2 {
+  font-size: 2.5rem;
+}
+
+.science p {
+  line-height: 1.5;
 }
 
 .landingSec {
   position: relative;
   height: 100vh;
   width: 100vw;
-  background-image: url(../public/science/science_bg_1.png);
+  background-image: url(../public/science/sci_bg.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right;
+  background-attachment: fixed;
   display: flex;
   align-items: center;
 }
 
-.landingSec>h1{
+.landingSec>h1 {
   font-size: 2.8rem;
-  max-width: 500px;
+  max-width: 600px;
 }
 
 .formOne {
@@ -52,8 +62,46 @@
   /* height: 500px; */
 }
 
+.benefits>div{
+  display: flex;
+  position: relative;
+  margin-top: 100px;
+}
+
+.benefits>div:nth-of-type(even){
+  flex-direction: row-reverse;
+}
+
+.benefitText{
+  max-width: 450px;
+  z-index: 10;
+}
+
+.benefitText>h3{
+position: relative;
+font-size: 2.2rem;
+}
+
+.benefitText>h3>span{
+  position: absolute;
+  top: -35px;
+}
+
+.benefitSvg{
+  /* position: relative; */
+  width: 100px;
+  height: 100px;
+}
+
+.benefitSvg>div{
+  position: absolute;
+  right: -250px;
+  bottom: 100px;
+
+}
+
 .benefitsList {
-  list-style-type: lower-roman;
+  list-style-type: decimal;
 }
 
 .benefitsList li {

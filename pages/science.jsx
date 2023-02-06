@@ -35,7 +35,8 @@ export default function Science() {
             </svg> */}
           </div>
         </section>
-        <div>
+        <section>
+          <h2>Definition</h2>
           <p>
             Multivitamin pills are nutritional supplements that contain a combination of essential vitamins and
             minerals that the body needs to function properly. In today&apos;s fast-paced world,
@@ -44,7 +45,133 @@ export default function Science() {
             solution to this problem, ensuring that the body receives all the
             vitamins and minerals it needs to stay healthy and function optimally.
           </p>
+        </section>
+        <section className={css.benefits} >
+          <h2>Benefits</h2>
           <div>
+            <div className={css.benefitText} >
+              <h3>
+                <span>1.</span>
+                Supports Optimal Health
+              </h3>
+              <p>
+                Multivitamin pills play a crucial role in maintaining optimal health by providing the body with
+                essential vitamins and minerals that may not be obtained in sufficient amounts through diet alone.
+                These nutrients play a vital role in several bodily functions, such as maintaining healthy skin,
+                bones, and muscles, supporting the immune system, and preventing the onset of chronic diseases.
+              </p>
+            </div>
+            
+            <div className={css.benefitSvg}>
+              <svg width="650" height="390" viewBox="0 0 650 390" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M130.091 325.002C165.971 325.002 195.089 354.119 195.089 390H260.087H325.085C325.085 354.119 354.203 325.002 390.084 325.002V260.003H325.085C325.085 295.884 295.968 325.002 260.087 325.002C224.207 325.002 195.089 295.884 195.089 260.003H130.091V325.002Z" fill="#50BAB1"></path>
+                <path d="M520 65.3757V129.998C555.881 129.998 584.998 100.881 584.998 65H520V65.3757Z" fill="#50BAB1"></path>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 194.911V259.346V259.534V259.909V324.344C35.6925 324.344 64.6929 295.531 64.9959 259.909H64.9983C64.9983 259.815 64.9981 259.722 64.9977 259.628C64.9981 259.534 64.9983 259.44 64.9983 259.346H64.9959C64.6929 223.725 35.6925 194.911 0 194.911Z" fill="#50BAB1"></path>
+                <path d="M129.621 260.003H64.9985C64.9985 224.123 94.1162 195.005 129.997 195.005V260.003H129.621Z" fill="#357A75"></path>
+                <path d="M649.846 0.0822754C613.966 0.0822785 585 29.2 585 65.0806C584.956 100.923 555.852 129.913 519.998 129.913H454.894C454.894 165.793 425.776 194.911 389.896 194.911V259.909H454.894C454.894 224.05 483.978 194.535 519.829 194.5H584.707C584.707 158.619 613.825 129.302 649.706 129.302L649.846 0.0822754Z" fill="#50BAB1"></path>
+                <circle cx="390" cy="260" r="65" fill="#357A75"></circle>
+              </svg>
+            </div>
+          </div>
+          <div>
+            <div className={css.benefitText} >
+              <h3>
+                <span>2.</span>
+                Helps Prevent Nutrient Deficiencies
+              </h3>
+              <p>
+                Nutrient deficiencies can lead to serious health problems, such as scurvy caused by a lack of vitamin C,
+                or anemia caused by a lack of iron. Multivitamin pills help to prevent such deficiencies by providing
+                the body with all the necessary vitamins and minerals it needs to stay healthy.
+              </p>
+            </div>
+            
+            <div className={css.benefitSvg}>
+              <svg width="650" height="390" viewBox="0 0 650 390" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M130.091 325.002C165.971 325.002 195.089 354.119 195.089 390H260.087H325.085C325.085 354.119 354.203 325.002 390.084 325.002V260.003H325.085C325.085 295.884 295.968 325.002 260.087 325.002C224.207 325.002 195.089 295.884 195.089 260.003H130.091V325.002Z" fill="#50BAB1"></path>
+                <path d="M520 65.3757V129.998C555.881 129.998 584.998 100.881 584.998 65H520V65.3757Z" fill="#50BAB1"></path>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 194.911V259.346V259.534V259.909V324.344C35.6925 324.344 64.6929 295.531 64.9959 259.909H64.9983C64.9983 259.815 64.9981 259.722 64.9977 259.628C64.9981 259.534 64.9983 259.44 64.9983 259.346H64.9959C64.6929 223.725 35.6925 194.911 0 194.911Z" fill="#50BAB1"></path>
+                <path d="M129.621 260.003H64.9985C64.9985 224.123 94.1162 195.005 129.997 195.005V260.003H129.621Z" fill="#357A75"></path>
+                <path d="M649.846 0.0822754C613.966 0.0822785 585 29.2 585 65.0806C584.956 100.923 555.852 129.913 519.998 129.913H454.894C454.894 165.793 425.776 194.911 389.896 194.911V259.909H454.894C454.894 224.05 483.978 194.535 519.829 194.5H584.707C584.707 158.619 613.825 129.302 649.706 129.302L649.846 0.0822754Z" fill="#50BAB1"></path>
+                <circle cx="390" cy="260" r="65" fill="#357A75"></circle>
+              </svg>
+            </div>
+          </div>
+          <div>
+            <div className={css.benefitText} >
+              <h3>
+                <span>3.</span>
+                Enhances Energy Levels and Boosts the Immune System
+              </h3>
+              <p>
+                Multivitamin pills help to enhance energy levels by providing the body with essential vitamins and minerals
+                that play a vital role in producing energy. Additionally, they help to boost the immune system by providing
+                the body with vitamins and minerals that support its functioning, such as vitamin C and zinc.
+              </p>
+            </div>
+            
+            <div className={css.benefitSvg}>
+              <svg width="650" height="390" viewBox="0 0 650 390" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M130.091 325.002C165.971 325.002 195.089 354.119 195.089 390H260.087H325.085C325.085 354.119 354.203 325.002 390.084 325.002V260.003H325.085C325.085 295.884 295.968 325.002 260.087 325.002C224.207 325.002 195.089 295.884 195.089 260.003H130.091V325.002Z" fill="#50BAB1"></path>
+                <path d="M520 65.3757V129.998C555.881 129.998 584.998 100.881 584.998 65H520V65.3757Z" fill="#50BAB1"></path>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 194.911V259.346V259.534V259.909V324.344C35.6925 324.344 64.6929 295.531 64.9959 259.909H64.9983C64.9983 259.815 64.9981 259.722 64.9977 259.628C64.9981 259.534 64.9983 259.44 64.9983 259.346H64.9959C64.6929 223.725 35.6925 194.911 0 194.911Z" fill="#50BAB1"></path>
+                <path d="M129.621 260.003H64.9985C64.9985 224.123 94.1162 195.005 129.997 195.005V260.003H129.621Z" fill="#357A75"></path>
+                <path d="M649.846 0.0822754C613.966 0.0822785 585 29.2 585 65.0806C584.956 100.923 555.852 129.913 519.998 129.913H454.894C454.894 165.793 425.776 194.911 389.896 194.911V259.909H454.894C454.894 224.05 483.978 194.535 519.829 194.5H584.707C584.707 158.619 613.825 129.302 649.706 129.302L649.846 0.0822754Z" fill="#50BAB1"></path>
+                <circle cx="390" cy="260" r="65" fill="#357A75"></circle>
+              </svg>
+            </div>
+          </div>
+          <div>
+            <div className={css.benefitText} >
+              <h3>
+                <span>4.</span>
+                Improves Mental Clarity and Mood
+              </h3>
+              <p>
+                Multivitamin pills contain vitamins and minerals that are essential for brain health, such as vitamin B12,
+                folate, and iron. These nutrients help to improve mental clarity and enhance mood by supporting neurotransmitter
+                production and brain function.
+              </p>
+            </div>
+            
+            <div className={css.benefitSvg}>
+              <svg width="650" height="390" viewBox="0 0 650 390" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M130.091 325.002C165.971 325.002 195.089 354.119 195.089 390H260.087H325.085C325.085 354.119 354.203 325.002 390.084 325.002V260.003H325.085C325.085 295.884 295.968 325.002 260.087 325.002C224.207 325.002 195.089 295.884 195.089 260.003H130.091V325.002Z" fill="#50BAB1"></path>
+                <path d="M520 65.3757V129.998C555.881 129.998 584.998 100.881 584.998 65H520V65.3757Z" fill="#50BAB1"></path>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 194.911V259.346V259.534V259.909V324.344C35.6925 324.344 64.6929 295.531 64.9959 259.909H64.9983C64.9983 259.815 64.9981 259.722 64.9977 259.628C64.9981 259.534 64.9983 259.44 64.9983 259.346H64.9959C64.6929 223.725 35.6925 194.911 0 194.911Z" fill="#50BAB1"></path>
+                <path d="M129.621 260.003H64.9985C64.9985 224.123 94.1162 195.005 129.997 195.005V260.003H129.621Z" fill="#357A75"></path>
+                <path d="M649.846 0.0822754C613.966 0.0822785 585 29.2 585 65.0806C584.956 100.923 555.852 129.913 519.998 129.913H454.894C454.894 165.793 425.776 194.911 389.896 194.911V259.909H454.894C454.894 224.05 483.978 194.535 519.829 194.5H584.707C584.707 158.619 613.825 129.302 649.706 129.302L649.846 0.0822754Z" fill="#50BAB1"></path>
+                <circle cx="390" cy="260" r="65" fill="#357A75"></circle>
+              </svg>
+            </div>
+          </div>
+          <div>
+            <div className={css.benefitText} >
+              <h3>
+                <span>5.</span>
+                Convenient and Accessible
+              </h3>
+              <p>
+                Multivitamin pills are convenient and accessible, making it easy for individuals to incorporate them into
+                their daily routine. They are available in different forms, such as tablets, capsules, and gummies,
+                and can be found at most health food stores and online.
+              </p>
+            </div>
+            
+            <div className={css.benefitSvg}>
+              <svg width="650" height="390" viewBox="0 0 650 390" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M130.091 325.002C165.971 325.002 195.089 354.119 195.089 390H260.087H325.085C325.085 354.119 354.203 325.002 390.084 325.002V260.003H325.085C325.085 295.884 295.968 325.002 260.087 325.002C224.207 325.002 195.089 295.884 195.089 260.003H130.091V325.002Z" fill="#50BAB1"></path>
+                <path d="M520 65.3757V129.998C555.881 129.998 584.998 100.881 584.998 65H520V65.3757Z" fill="#50BAB1"></path>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 194.911V259.346V259.534V259.909V324.344C35.6925 324.344 64.6929 295.531 64.9959 259.909H64.9983C64.9983 259.815 64.9981 259.722 64.9977 259.628C64.9981 259.534 64.9983 259.44 64.9983 259.346H64.9959C64.6929 223.725 35.6925 194.911 0 194.911Z" fill="#50BAB1"></path>
+                <path d="M129.621 260.003H64.9985C64.9985 224.123 94.1162 195.005 129.997 195.005V260.003H129.621Z" fill="#357A75"></path>
+                <path d="M649.846 0.0822754C613.966 0.0822785 585 29.2 585 65.0806C584.956 100.923 555.852 129.913 519.998 129.913H454.894C454.894 165.793 425.776 194.911 389.896 194.911V259.909H454.894C454.894 224.05 483.978 194.535 519.829 194.5H584.707C584.707 158.619 613.825 129.302 649.706 129.302L649.846 0.0822754Z" fill="#50BAB1"></path>
+                <circle cx="390" cy="260" r="65" fill="#357A75"></circle>
+              </svg>
+            </div>
+          </div>
+        </section>
+        <div>
+          {/* <div>
             <ul className={css.benefitsList} >
               <li><b>Supports Optimal Health</b><br />
                 Multivitamin pills play a crucial role in maintaining optimal health by providing the body with
@@ -74,7 +201,7 @@ export default function Science() {
               </li>
             </ul>
 
-          </div>
+          </div> */}
           <p>
             Multivitamin pills provide a convenient and accessible solution for individuals who struggle to maintain a
             balanced diet and consume all the necessary nutrients their body requires. They play a crucial role in maintaining
