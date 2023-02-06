@@ -1,11 +1,5 @@
 .science {
-  /* padding: 50px 0; */
-  /* background-color: red; */
-  /* background: linear-gradient(0.3turn, #5C917C, #142E2C); */
   background-color: #142E2C;
-  /* background-image: url(../public/science_bg.jpg);
-  background-repeat: no-repeat;
-  background-position: top; */
   overflow-y: auto;
   display: flex;
   flex-direction: column;
@@ -13,16 +7,18 @@
   align-items: center;
 }
 
-.science>div {
-  max-width: 1000px;
-}
+
 
 .science>section {
   padding: 50px 100px;
   width: 100%;
 }
 
-.science>section>h2 {
+.science>section:not(:first-child) {
+  max-width: 1200px;
+}
+
+.science>section h2 {
   font-size: 2.5rem;
 }
 
@@ -52,52 +48,52 @@
   position: absolute;
   left: -5px;
   bottom: -5px;
-  /* height: 300px; */
 }
 
 .formTwo {
   position: absolute;
   right: -400px;
   bottom: -5px;
-  /* height: 500px; */
 }
 
-.benefits>div{
+.definition {
+  max-width: 1200px;
+}
+
+.benefits {
+  background-color: #193B38;
+}
+
+.benefits>div {
   display: flex;
   position: relative;
   margin-top: 100px;
+  gap: 250px;
 }
 
-.benefits>div:nth-of-type(even){
+.benefits>div:nth-of-type(even) {
   flex-direction: row-reverse;
 }
 
-.benefitText{
+.benefitText {
   max-width: 450px;
+  min-width: 250px;
   z-index: 10;
 }
 
-.benefitText>h3{
-position: relative;
-font-size: 2.2rem;
+.benefitText>h3 {
+  position: relative;
+  font-size: 2.2rem;
 }
 
-.benefitText>h3>span{
+.benefitText>h3>span {
   position: absolute;
   top: -35px;
 }
 
-.benefitSvg{
-  /* position: relative; */
-  width: 100px;
-  height: 100px;
-}
-
-.benefitSvg>div{
-  position: absolute;
-  right: -250px;
-  bottom: 100px;
-
+.benefitSvg {
+  position: relative;
+  max-width: 250px;
 }
 
 .benefitsList {
@@ -108,8 +104,22 @@ font-size: 2.2rem;
   margin: 5rem 0;
 }
 
+.conclusion {
+  font-size: 1.5rem;
+  background-color: #142E2C;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #193B38;
+}
+
+.conclusion p {
+  max-width: 1000px;
+}
+
 .scientist {
   position: relative;
+  margin-top: 50px;
   width: 800px;
   height: 500px;
 }

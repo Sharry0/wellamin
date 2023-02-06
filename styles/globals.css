@@ -173,12 +173,16 @@ progress::-moz-progress-bar {
   font-size: 0.8rem;
 }
 
-.footerDiv {
+.footerOverlay {
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
 }
+.footer{
+  width: 100%;
+}
+
 .footerLeft{
   display: flex;
   align-items: center;

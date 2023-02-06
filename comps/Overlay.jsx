@@ -52,7 +52,7 @@ const Overlay = forwardRef(({ scroll, progressbar }, ref) => (
             Feel the difference with our Vitamin E supplement. A powerful antioxidant that supports healthy skin, hair and nails, this essential vitamin also helps to boost overall health and wellness</div>
         </div>
       </div>
-      <div className="footerDiv">
+      <div className="footerOverlay">
         <Footer />
       </div>
 
