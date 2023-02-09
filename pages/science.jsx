@@ -178,7 +178,7 @@ export default function Science() {
         </p>
 
       </section>
-      <div className="r" >
+      <div>
         <Footer />
       </div>
     </div >
