@@ -1,13 +1,13 @@
 .science {
   background-color: #142E2C;
   overflow-y: auto;
+  overflow-x: hidden;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  /* max-height: 100vh; */
 }
-
-
 
 .science>section {
   padding: 50px 100px;
