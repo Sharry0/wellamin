@@ -1,0 +1,43 @@
+
+.profil{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.profil:hover{
+  color: #DEA576;
+  transition: 0.5s;
+}
+
+.profil h3{
+  margin-bottom: 0.1rem;
+}
+
+.outerProfilImg{
+  position: relative;
+  width: 200px;
+  height: 250px;
+}
+
+.profilCircle{
+  position: absolute;
+  background-color: var(--main-green-light);
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  bottom: 0;
+
+}
+
+.profilImg{
+  position: absolute;
+  width: 200px;
+  height: 250px;
+  bottom: 0;
+}
+.profilImg img{
+  object-fit: contain;
+  object-position: bottom;
+}

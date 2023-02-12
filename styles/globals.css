@@ -1,3 +1,9 @@
+
+:root {
+  --main-green-light: #5C917C;
+  --main-green-dark: #142E2C;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -49,7 +55,7 @@ a{
 
 body {
 
-  background: linear-gradient(0.3turn, #5C917C, #142E2C);
+  background: linear-gradient(0.3turn, var(--main-green-light), var(--main-green-dark));
   /* position: fixed; */
   /* overflow: hidden; */
   /* overscroll-behavior-y: none; */
@@ -167,13 +173,14 @@ progress::-moz-progress-bar {
 }
 
 .footer {
-  background-color: #142E2C;
+  background-color: var(--main-green-dark);
   height: 200px;
   padding: 20px;
   display: flex;
   justify-content: space-between;
   font-size: 0.8rem;
   width: 100vw;
+  color: whitesmoke;
 }
 
 .footerOverlay {

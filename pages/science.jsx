@@ -1,9 +1,9 @@
 
 import css from "../styles/scient.module.css";
 import Image from "next/image";
-import Footer from "../comps/Footer"
+import Footer from "../comps/Footer";
+
 export default function Science() {
-  if (typeof window !== "undefined") console.log(window.innerHeight)
   return (
     <div className={css.science} >
       <section className={css.landingSec} >

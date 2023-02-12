@@ -1,0 +1,46 @@
+.about {
+  background-color: #e8fcfa;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--main-green-dark);
+}
+
+.about>section {
+  padding: 50px 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.landing {
+  position: relative;
+  height: 100vh;
+  background-image: url(../public/about/about_bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-attachment: fixed;
+  justify-content: center;
+  color: whitesmoke;
+}
+
+.landing>h1 {
+  font-size: 2.8rem;
+  max-width: 600px;
+  align-self: flex-start;
+}
+
+.team {
+  margin-bottom: 150px;
+}
+
+.profils {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 75px;
+  justify-content: center;
+}
