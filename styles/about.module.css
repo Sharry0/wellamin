@@ -1,5 +1,5 @@
 .about {
-  background-color: #e8fcfa;
+  background-color: var(--secondary-white-green);
   overflow-x: hidden;
   display: flex;
   flex-direction: column;
@@ -25,7 +25,7 @@
   background-position: bottom;
   background-attachment: fixed;
   justify-content: center;
-  color: whitesmoke;
+  color: var(--secondary-white-green);
 }
 
 .landing>h1 {
@@ -37,12 +37,14 @@
 .formOne {
   position: absolute;
   left: -5px;
-  bottom: -5px;
+  bottom: -1px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .formTwo {
   position: absolute;
-  bottom: -5px;
+  bottom: 0px;
   right: 0;
   height: 300px;
 }

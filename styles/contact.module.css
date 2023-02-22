@@ -1,0 +1,123 @@
+
+.contact {
+  background-color: var(--secondary-white-green);
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--main-green-dark);
+}
+
+.contact>section {
+  padding: 50px 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.landing {
+  position: relative;
+  height: 50vh;
+  background-image: url(../public/contact/contact_bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  justify-content: center;
+  color: var(--secondary-white-green);
+  z-index: 100;
+}
+
+.landing>h1 {
+  font-size: 2.8rem;
+  max-width: 600px;
+  align-self: center;
+}
+
+.contactForm{
+  position: relative;
+  
+}
+
+.shapes{
+  position: absolute;
+  top: 0;
+  left: -80px;
+  height: 100vh;
+}
+
+.contactForm>form {
+  padding: 3rem 0;
+  width: 500px;
+  z-index: 100;
+}
+
+.contactForm>h4{
+  z-index: 100;
+}
+
+.contactForm form>div{
+  padding: 20px 0;
+}
+
+.contactForm label{
+  font-weight: bold;
+  font-size: 1.3rem;
+  
+}
+
+.contactForm input, .contactForm textarea  {
+  width: 100%;
+  background-color: var(--secondary-white-green);
+  border: 1px solid var(--main-green-dark);
+  border-radius: 10px;
+  font-size: 1rem;
+  padding: 15px 5px;
+  margin-top: 10px;
+  font-family: inherit;
+}
+
+.names{
+  display: flex;
+  gap: 20px;
+}
+
+#submitBtn{
+  background-color: var(--main-green-dark);
+  color: var(--secondary-white-green);
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.submitWindow{
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submitContainer{
+  background-color: var(--secondary-white-green);
+  width: 500px;
+  height: 300px;
+  border-radius: 15px;
+  padding: 50px;
+}
+
+.cancelSubmitBtn{
+  background-color: var(--main-green-dark);
+  color: var(--secondary-white-green);
+  border: 1px solid var(--main-green-dark);
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}

@@ -6,6 +6,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: var(--secondary-white-green);
 }
 
 .science>section {
@@ -41,6 +42,7 @@
 .landingSec>h1 {
   font-size: 2.8rem;
   max-width: 600px;
+ 
 }
 
 .formOne {

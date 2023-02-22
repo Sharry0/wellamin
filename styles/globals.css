@@ -2,6 +2,7 @@
 :root {
   --main-green-light: #5C917C;
   --main-green-dark: #142E2C;
+  --secondary-white-green: #e8fcfa;
 }
 
 * {
@@ -28,7 +29,7 @@ body,
 
 
 a{
-  color: whitesmoke;
+  color: var(--secondary-white-green);
   text-decoration: none;
 }
 
@@ -60,7 +61,7 @@ body {
   /* overflow: hidden; */
   /* overscroll-behavior-y: none; */
   /* font-family: "Inter var", sans-serif; */
-  color: whitesmoke;
+  color: var(--secondary-white-green);
   -webkit-font-smoothing: antialiased;
 }
 
@@ -70,7 +71,7 @@ body {
   top: 0;
   right: 0;
   margin: 80px;
-  color: white;
+  color: var(--secondary-white-green);
   font-size: 8em;
   font-weight: 100;
   line-height: 1em;
@@ -132,7 +133,7 @@ progress::-moz-progress-bar {
 .text h1 {
   -webkit-font-smoothing: auto;
   pointer-events: none;
-  color: white;
+  color: var(--secondary-white-green);
   font-size: 5em;
   font-weight: 100;
   line-height: 1em;
@@ -180,7 +181,7 @@ progress::-moz-progress-bar {
   justify-content: space-between;
   font-size: 0.8rem;
   width: 100vw;
-  color: whitesmoke;
+  color: var(--secondary-white-green);
 }
 
 .footerOverlay {
@@ -204,7 +205,7 @@ progress::-moz-progress-bar {
 }
 
 .footerContact{
-  border-left: whitesmoke 2px solid;
+  border-left: var(--secondary-white-green) 2px solid;
   padding-left: 15px;
 }
 
@@ -216,7 +217,7 @@ progress::-moz-progress-bar {
 .footerPages{
   display: flex;
   flex-direction: column;
-  border-left: whitesmoke 2px solid;
+  border-left: var(--secondary-white-green) 2px solid;
   padding-left: 15px;
 }
 
