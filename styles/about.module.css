@@ -37,16 +37,20 @@
 .formOne {
   position: absolute;
   left: -5px;
-  bottom: -1px;
+  bottom: -0.5px;
   display: flex;
   justify-content: flex-end;
 }
 
 .formTwo {
   position: absolute;
-  bottom: 0px;
+  bottom: -0.5px;
   right: 0;
   height: 300px;
+}
+
+.company p{
+  max-width: 1000px;
 }
 
 .team {
