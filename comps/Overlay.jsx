@@ -1,5 +1,6 @@
 
 import { forwardRef } from "react";
+import Link from "next/link";
 import Image from "next/image";
 import Footer from "./Footer";
 
@@ -53,7 +54,19 @@ const Overlay = forwardRef(({ scroll, progressbar }, ref) => (
         </div>
       </div>
       <div className="footerOverlay">
-        <Footer />
+        <div className="footerTextOverlay">
+          <div>
+            Wellamin&apos;s revolutionary multivitamin pill is the answer to the world's nutrition problems. Using cutting-edge technology, this pill is designed to provide essential vitamins and minerals that are necessary for optimal health. With Wellamin, you can rest assured that your body is getting the nutrients it needs, and take the first step towards a healthier life.
+          </div>
+        </div>
+        <div>
+        </div>
+        <div className="footerAndButtonOverlay" >
+          <div>
+            <Link href="/science" className="buttonFootOverlay" >learn more</Link>
+          </div>
+          <Footer />
+        </div>
       </div>
 
     </div>

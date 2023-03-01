@@ -1,4 +1,3 @@
-
 :root {
   --main-green-light: #5C917C;
   --main-green-dark: #142E2C;
@@ -28,7 +27,7 @@ body,
 
 
 
-a{
+a {
   color: var(--secondary-white-green);
   text-decoration: none;
 }
@@ -94,7 +93,7 @@ body {
 
 progress::-webkit-progress-bar {
   background-color: transparent;
-	border-radius: 9px;
+  border-radius: 9px;
 
 }
 
@@ -120,8 +119,6 @@ progress::-moz-progress-bar {
   line-height: 1.6em;
   font-size: 20px;
   letter-spacing: 1.5px;
-
-  /* text-align: center; */
 }
 
 .text:first-of-type {
@@ -184,37 +181,75 @@ progress::-moz-progress-bar {
   color: var(--secondary-white-green);
 }
 
+
+
 .footerOverlay {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: space-between;
   overflow-x: hidden;
 }
 
+.footerTextOverlay {
+  padding-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
 
-.footerLeft{
+.footerTextOverlay div {
+  font-weight: bold;
+  font-size: 1.2rem;
+  max-width: 1000px;
+  background-color: #00000060;
+  padding: 50px;
+  margin: 0 30px;
+  border-radius: 10px;
+}
+
+.footerAndButtonOverlay{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+}
+
+.buttonFootOverlay {
+  cursor: pointer;
+  background-color: var(--main-green-dark);
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  animation: float 6s ease-in-out infinite;
+}
+
+
+.footerLeft {
   display: flex;
   align-items: center;
   font-size: 1.5rem;
 }
-.footerRight{
-  display: flex; 
+
+.footerRight {
+  display: flex;
   gap: 50px;
   padding-right: 8%;
 }
 
-.footerContact{
+.footerContact {
   border-left: var(--secondary-white-green) 2px solid;
   padding-left: 15px;
 }
 
-.footerSocials{
+.footerSocials {
   display: flex;
   gap: 10px;
 }
 
-.footerPages{
+.footerPages {
   display: flex;
   flex-direction: column;
   border-left: var(--secondary-white-green) 2px solid;
