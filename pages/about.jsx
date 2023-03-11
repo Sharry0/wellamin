@@ -54,13 +54,40 @@ export default function About() {
       <section className={css.team} >
         <h2>Our Team</h2>
         <div className={css.profils}>
-          <Profil src={"/about/profil_1.png"} name={"Kasey O'Ryan"} jobPosition={"Chief Executive Officer"} />
-          <Profil src={"/about/profil_2.png"} name={"Sebastian Cantrell"} jobPosition={"Research Technician"} />
-          <Profil src={"/about/profil_3.png"} name={"Lily Duncan"} jobPosition={"Synthetic Biologist"} />
-          <Profil src={"/about/profil_4.png"} name={"Howard Atkinson"} jobPosition={"Enzymologist"} />
+          <Profil src={"/about/profil_1.png"} name={"Kasey O'Ryan"} jobPosition={"Chief Executive Officer"} description={profileDescriptions.kasey} />
+          <Profil src={"/about/profil_2.png"} name={"Sebastian Cantrell"} jobPosition={"Research Technician"} description={profileDescriptions.sebastian} />
+          <Profil src={"/about/profil_3.png"} name={"Lily Duncan"} jobPosition={"Synthetic Biologist"} description={profileDescriptions.lily} />
+          <Profil src={"/about/profil_4.png"} name={"Howard Atkinson"} jobPosition={"Enzymologist"} description={profileDescriptions.howard} />
         </div>
       </section>
       <Footer />
     </div>
   )
+}
+
+
+const profileDescriptions = {
+  kasey: `Kasey O'Ryan is a dynamic and visionary Chief Executive Officer at Wellamin, a leading company in the field of health and wellness. 
+  With over 15 years of experience in the industry, Kasey is a highly respected leader who is dedicated to developing innovative products that 
+  improve people's lives. Under her guidance, Wellamin is developing a revolutionary multivitamin pill that is set to transform the industry. 
+  Kasey is known for her strategic thinking, exceptional communication skills, and unwavering commitment to excellence. She is passionate 
+  about making a positive impact in the world and is committed to advancing the health and wellbeing of people everywhere.`,
+
+  sebastian: `Sebastian Cantrell is a talented Research Technician at Wellamin, a leading company in the health and wellness industry. 
+  With a degree in biochemistry, Sebastian brings a wealth of scientific knowledge and expertise to the company's research and development team.
+   He plays a critical role in the development of a revolutionary multivitamin pill that is set to transform the industry. Sebastian is known 
+   for his attention to detail, analytical skills, and ability to work effectively in a team environment. He is passionate about improving people's 
+   lives through science and is committed to contributing to the advancement of the health and wellness industry.`,
+
+  lily: `Lily Duncan is a brilliant Synthetic Biologist at Wellamin, a leading company in the health and wellness industry. 
+  With extensive experience in genetic engineering and molecular biology, Lily plays a critical role in developing innovative solutions for the 
+  company's multivitamin pill. Her expertise in synthetic biology and biotechnology has been instrumental in designing and optimizing the product. 
+  Lily is known for her exceptional analytical skills, creative problem-solving abilities, and passion for pushing the boundaries of science. 
+  She is committed to advancing the field of synthetic biology and developing cutting-edge solutions that will improve people's lives.`,
+
+  howard: `Howard Atkinson is a highly skilled Enzymologist at Wellamin, a leading company in the health and wellness industry. 
+  With extensive experience in enzymology and protein engineering, Howard plays a critical role in developing the company's multivitamin pill. 
+  His expertise in enzyme kinetics and mechanism has been instrumental in optimizing the product's enzymatic activity. 
+  Howard is known for his exceptional problem-solving skills, attention to detail, and dedication to scientific excellence. 
+  He is committed to advancing the field of enzymology and developing innovative solutions that will have a positive impact on people's health and wellbeing.`
 }
