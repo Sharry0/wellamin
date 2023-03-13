@@ -181,8 +181,6 @@ progress::-moz-progress-bar {
   color: var(--secondary-white-green);
 }
 
-
-
 .footerOverlay {
   height: 100vh;
   display: flex;
@@ -226,7 +224,6 @@ progress::-moz-progress-bar {
   animation: float 6s ease-in-out infinite;
 }
 
-
 .footerLeft {
   display: flex;
   align-items: center;
@@ -256,7 +253,39 @@ progress::-moz-progress-bar {
   padding-left: 15px;
 }
 
+@media (max-width: 700px) {
+  .text{
+    font-size: 1rem;
+    padding-top: 75px;
+  }
+  .footerTextOverlay{
+    padding-top: 75px;
+  }
+  .footerTextOverlay div{
+    font-size: 1rem;
+    padding: 25px;
+  }
+  .footerAndButtonOverlay{
+    gap: 40px;
+  }
+  .buttonFootOverlay{
+    font-size: 1rem;
+  }
 
+}
+
+@media (max-width: 460px) {
+ .text h1{
+  font-size: 4rem;
+ }
+ .footerLeft{
+  font-size: 1rem;
+ }
+ .footerRight{
+  gap: 20px;
+  padding-right: 0;
+ }
+}
 
 /* .landingText{
   display: flex;
