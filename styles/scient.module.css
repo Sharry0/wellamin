@@ -42,19 +42,19 @@
 .landingSec>h1 {
   font-size: 2.8rem;
   max-width: 600px;
- 
+
 }
 
 .formOne {
   position: absolute;
   left: -5px;
-  bottom: -5px;
+  bottom: -10px;
 }
 
 .formTwo {
   position: absolute;
   right: -400px;
-  bottom: -5px;
+  bottom: -10px;
 }
 
 .definition {
@@ -132,4 +132,39 @@
 .imgCap {
   font-size: 0.7rem;
   margin-top: 0;
+}
+
+
+@media (max-width: 1000px) {
+  .formTwo {
+    left: 500px;
+  }
+  .benefits>div {
+    gap: 100px;
+  }
+  .conclusion {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .landingSec>h1 {
+    font-size: 2rem;
+  }
+  .science>section {
+    padding: 50px;
+  }
+  .science>section h2 {
+    font-size: 1.8rem;
+  }
+  .benefitText>h3 {
+    font-size: 1.5rem;
+  }
+  .benefits>div {
+    margin-top: 50px;
+    gap: 20px;
+  }
+  .conclusion {
+    font-size: 1rem;
+  }
 }
