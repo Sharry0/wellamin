@@ -45,7 +45,6 @@
 
 .articleContainer{
   width: 400px;
-  /* height: 300px; */
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
   padding: 20px;
   border-radius: 5px;
@@ -71,3 +70,11 @@
   color: gray;
 }
 
+@media (max-width: 450px) {
+  .articleContainer{
+    width: 300px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 5px;
+  }
+}
