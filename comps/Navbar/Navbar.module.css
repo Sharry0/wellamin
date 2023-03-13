@@ -18,9 +18,10 @@
   backdrop-filter: blur(10px);
   padding: 1px 15px;
   display: flex;
+  justify-content: space-between;
 }
 
-.logo{
+.logo {
   display: flex;
   align-items: center;
   gap: 5px;
@@ -42,3 +43,36 @@
   gap: 50px;
 }
 
+.hamburgerContainer {
+  display: none;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.hamburger {
+  background-color: transparent;
+  border: none;
+}
+
+.hamburgerCollapse {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 50px;
+  right: 0;
+  background-color: #00000060;
+  padding: 5px 10px;
+  border-radius: 5px;
+  gap: 5px;
+}
+
+@media (max-width: 700px) {
+  .hamburgerContainer{
+    display: flex;
+  }
+  .navLinks{
+    display: none;
+  }
+
+}
