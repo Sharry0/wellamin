@@ -9,7 +9,7 @@ export default function Profil({ src, name, jobPosition, description }) {
   return (
     <div>
 
-      <div className={css.profil} onClick={() => setProfileOpen(true)} >
+      <div className={css.profil} onClick={()=>setProfileOpen(true)} >
         <div className={css.outerProfilImg} >
           <div className={css.profilCircle} >
             <div className={css.profilImg} >
@@ -42,7 +42,7 @@ export default function Profil({ src, name, jobPosition, description }) {
                 <Image src="/lin_dark.svg" height={50} width={50} alt={name} />
               </Link>
             </div>
-            <button onClick={() => setProfileOpen(false)} >X</button>
+            <button onClick={()=>setProfileOpen(false)} >X</button>
           </div>
         </div>
       }

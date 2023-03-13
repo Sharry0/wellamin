@@ -49,7 +49,7 @@
   height: 300px;
 }
 
-.company p{
+.company p {
   max-width: 1000px;
 }
 
@@ -62,4 +62,23 @@
   flex-wrap: wrap;
   gap: 75px;
   justify-content: center;
+}
+
+@media (max-width: 750px) {
+  .about>section {
+    padding: 50px;
+  }
+  .landing>h1 {
+    font-size: 2.4rem;
+  }
+  .formTwo {
+    left: 350px;
+    width: 400px;
+  }
+}
+
+@media (max-width: 400px) {
+  .landing>h1 {
+    font-size: 2rem;
+  }
 }

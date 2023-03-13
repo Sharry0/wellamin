@@ -46,7 +46,7 @@
 .profilOverlay{
   position: fixed;
   background-color: #000000b0;
-  height: 100vh;
+  min-height: 100vh;
   width: 100vw;
   top: 0;
   left: 0;
@@ -54,17 +54,16 @@
   justify-content: center;
   align-items: center;
   z-index: 10000;
+  overflow-y: auto;
 }
 
 .profilCard{
-  position: relative;
+  position: absolute;
   display: flex;
   gap: 50px;
-  height: 500px;
-  width: 900px;
   background-color: var(--secondary-white-green);
   border-radius: 15px;
-  padding: 10px 25px ;
+  padding: 50px 75px ;
 }
 
 .profilCardText p{
@@ -85,3 +84,21 @@
   border-color: var(--main-green-light);
   cursor: pointer;
 }
+
+@media (max-width: 1000px) {
+  .profilCard{
+    flex-direction: column;
+    gap: 0;
+    padding: 25px 50px ;
+    margin: 15px;
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 650px) {
+  .profilOverlay{
+    display: block;
+  }
+}
+
+
